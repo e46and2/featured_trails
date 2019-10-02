@@ -1,0 +1,15 @@
+#!/usr/bin/env ruby
+#require 'require_all'
+#require_all 'lib'
+require "bundler/setup"
+require "./lib/hiking/version.rb"
+require "./lib/hiking/cli.rb"
+require "./lib/hiking/state.rb"
+require "./lib/hiking/trails.rb"
+#require 'open-uri'
+#require 'nokogiri'
+#puts "Does this work?!"
+
+Hiking::CLI.new.call
+
+#Hiking::Scraper.new.scrape
