@@ -1,5 +1,7 @@
 # Featured Trails
 
+rough draft for hiking project
+
 List featured hiking trails by state using a CLI interface with Ruby.
 
 ## Installation
